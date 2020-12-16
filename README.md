@@ -39,4 +39,10 @@ Just run `yarn` in your console to install all dependencies and `yarn start` to 
 
 I will start an update and delete page for the offers (the back end is ready). And will do an update and delete page for the user. also want to make a fonctionnal search bar. lot of work tho 👷 💻
 
+## Netlify link
+
+Here you can see and try this project :
+
+https://zmzm-vinted.netlify.app/
+
 ![](grout.gif)
