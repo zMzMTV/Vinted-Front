@@ -34,3 +34,9 @@ Just run `yarn` in your console to install all dependencies and `yarn start` to 
 - [stripe](https://stripe.com/docs/payments/accept-a-payment?integration=elements)
 
 - [js-cookie](https://www.npmjs.com/package/js-cookie)
+
+## Road Map
+
+I will start an update and delete page for the offers (the back end is ready). And will do an update and delete page for the user. also want to make a fonctionnal search bar. lot of work tho 👷 💻
+
+![](grout.gif)
