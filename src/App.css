@@ -1,1 +1,754 @@
-/* Other rules */
+body {
+  font-family: "Font";
+}
+
+body {
+  font-family: "Font";
+}
+
+div {
+  display: block;
+}
+
+img {
+  pointer-events: none;
+}
+
+/*  HEADER  */
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1280px;
+  margin: auto;
+  padding: 10px 0;
+}
+
+.header-container > div:first-child,
+.header-logo {
+  cursor: pointer;
+}
+
+.header-logo {
+  height: 30px;
+  padding-bottom: 15px;
+}
+
+.search-cont {
+  position: relative;
+}
+
+.search-input {
+  margin-top: 20px;
+  font-family: "Font";
+  padding-left: 40px;
+  width: 590px;
+  background-color: #f5f6f7;
+  border-radius: 5px;
+  height: 37px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+input {
+  text-rendering: auto;
+  color: -internal-light-dark(black, white);
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  appearance: textfield;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  margin: 0em;
+}
+
+.search-icon {
+  position: relative;
+  left: 7px;
+  top: -27px;
+  color: #bbb;
+}
+
+.button-signup {
+  margin-right: 20px;
+}
+.button-login-signup {
+  background-color: #fff;
+  color: #2cb1ba;
+  margin-bottom: 20px;
+}
+
+.button-disco {
+  color: #fff;
+  background-color: #2cb1ba;
+}
+
+.header-button {
+  height: 30px;
+  width: 115px;
+  border: 1px solid #2cb1ba;
+  border-radius: 5px;
+  font-family: "Font";
+  font-size: 12px;
+  outline: none;
+}
+
+.button-sold {
+  background-color: #2cb1ba;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+button {
+  appearance: button;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+}
+
+/*  SIGN UP & LOGIN  */
+
+.signup-container {
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+h2 {
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.signup-form {
+  width: 275px;
+  margin: auto;
+}
+
+.signup-container,
+.signup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-form > input {
+  border: none;
+  border-bottom: 1px solid #fcced3;
+  height: 35px;
+  margin-bottom: 20px;
+}
+
+button,
+input {
+  outline: none;
+  text-decoration: none;
+}
+
+button,
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+input {
+  text-rendering: auto;
+  color: -internal-light-dark(black, white);
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  appearance: textfield;
+  background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  margin: 0em;
+  font: 400 13.3333px Arial;
+}
+
+input[type="password" i] {
+  -webkit-text-security: disc !important;
+  padding: 1px 2px;
+}
+
+.checkbox-container {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.checkbox-container > div {
+  display: flex;
+}
+
+.signup-form input[type="checkbox"] {
+  transform: scale(2);
+  margin-right: 20px;
+}
+
+button,
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+button,
+input {
+  outline: none;
+}
+
+input[type="checkbox" i] {
+  background-color: initial;
+  cursor: default;
+  appearance: checkbox;
+  box-sizing: border-box;
+  margin: 3px 3px 3px 4px;
+  padding: initial;
+  border: initial;
+}
+
+.checkbox-container span {
+  color: #666;
+}
+
+.checkbox-container > p {
+  text-align: left;
+  color: #999;
+  font-size: 12px;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.signup-form button {
+  background-color: #2cb1ba;
+  height: 45px;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+button,
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+button {
+  appearance: button;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+  margin: 0em;
+  font: 400 13.3333px Arial;
+  padding: 1px 6px;
+}
+
+.signup-container a {
+  color: #2cb1ba;
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+a:-webkit-any-link {
+  cursor: pointer;
+}
+
+/*  HOME IMG  */
+
+.home-hero {
+  background-image: url("https://lereacteur-vinted.netlify.app/static/media/hero.09bfd0f9.jpg");
+  height: 455px;
+  width: 100%;
+  position: relative;
+  background-position: 50%;
+  background-size: cover;
+}
+
+.home-hero-forme {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  pointer-events: none;
+  height: 80px;
+}
+
+.home-hero > div {
+  width: 1280px;
+  margin: auto;
+}
+
+.home-hero img {
+  width: 100%;
+  background-position: 50%;
+  background-position-x: 50%;
+  background-position-y: center;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.home-hero-ready {
+  height: 220px;
+  width: 360px;
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 3px;
+  font-size: 34px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 75px;
+  box-shadow: 0 0 2px rgba(17, 17, 17, 0.24);
+  margin-left: 200px;
+}
+
+.home-hero-ready button {
+  height: 45px;
+  width: 187px;
+  background-color: #2baeb7;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  padding: 0 14px;
+  margin-top: 32px;
+}
+
+/*  HOME OFFERS  */
+
+.home-card-wrapper {
+  width: 1280px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px auto auto;
+}
+
+.card-container {
+  width: 235px;
+  padding: 0 6px 16px;
+  cursor: pointer;
+}
+
+.card-avatar-username > span {
+  color: #999;
+  font-size: 14px;
+}
+
+.card-container div:last-child img {
+  height: 360px;
+  width: 235px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.card-avatar-username {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.card-price-brand-size {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
+
+.card-price-brand-size span:first-child {
+  font-size: 14px;
+  color: black;
+}
+
+.card-price-brand-size span:not(:first-child) {
+  font-size: 12px;
+  color: #999;
+}
+
+/*  OFFER  */
+
+.body-offer {
+  height: calc(100vh -60px);
+  background-color: #ebedee;
+}
+.offer-container {
+  width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  grid-gap: 30px;
+  gap: 30px;
+}
+.offer-img {
+  height: 600px;
+  max-width: 700px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.info-offer {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 40px;
+}
+.price-offer {
+  font-size: 24px;
+  line-height: 20px;
+  margin-left: 40px;
+}
+.offer-desc {
+  list-style-type: none;
+}
+.offer-desc li {
+  display: flex;
+  margin: 2px 0;
+}
+.offer-desc span:nth-child(odd) {
+  color: #999;
+}
+.offer-desc span {
+  flex: 1 1;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+  font-size: 14px;
+  text-transform: uppercase;
+  display: flex;
+  margin: 5px 0;
+}
+.offer-desc span:nth-child(2n) {
+  font-weight: 600;
+  color: #666;
+}
+.separator {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: rgba(17, 17, 17, 0.1);
+}
+.name {
+  margin-top: 40px;
+  font-weight: 600;
+}
+.descc {
+  color: #666;
+}
+.info-offer button {
+  color: #fff;
+  background: #09b1ba;
+  border: 1px solid #09b1ba;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 16px;
+  height: 36px;
+  padding: 0 16px;
+  line-height: 36px;
+  margin-top: 52px;
+}
+.avatar {
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+/*  PUBLISH  */
+
+.publish-main {
+  background-color: #ebedee;
+}
+
+.publish-container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.publish-main h2 {
+  font-size: 24px;
+  font-family: "Font";
+  padding-top: 40px;
+}
+
+.file-select {
+  background-color: #fff;
+  padding: 24px;
+  margin: 20px 0;
+  box-shadow: 0 0 2px grey;
+}
+
+.dashed-preview-without {
+  border: 1px dashed #ebedee;
+  border-radius: 3px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-design-default {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #0ab1ba;
+  border-radius: 4px;
+  height: 45px;
+  width: 200px;
+}
+
+.label-file {
+  cursor: pointer;
+  color: #0ab1ba;
+  font-weight: 700;
+}
+
+.label-file > span {
+  margin: 0 10px;
+  vertical-align: middle;
+}
+
+.input-sign {
+  font-size: 40px;
+}
+
+.input-file {
+  display: none;
+}
+
+.text-input-section {
+  background-color: #fff;
+  margin: 20px 0;
+  box-shadow: 0 0 2px grey;
+}
+
+.text-input {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+.text-input-section > .text-input:not(:last-child) {
+  height: 25px;
+  border-bottom: 1px solid #ebedee;
+}
+
+.text-input > h4 {
+  font-weight: 400;
+  margin: 0;
+  vertical-align: baseline;
+}
+
+h4 {
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.text-input > input {
+  width: 50%;
+  border: none;
+  border-bottom: 1px solid #ebedee;
+  color: #000;
+  font-family: "Font";
+  font-size: 16px;
+}
+
+.text-input > textarea {
+  width: 50%;
+  resize: none;
+  border: none;
+  border-bottom: 1px solid #ebedee;
+  outline: none;
+  color: #000;
+  font-family: "Font";
+  font-size: 16px;
+}
+
+textarea {
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  appearance: textarea;
+  background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+  flex-direction: column;
+  cursor: text;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  margin: 0em;
+  padding: 2px;
+}
+
+.checkbox-section {
+  width: 50%;
+}
+
+.checkbox-section > input {
+  border: none;
+  border-bottom: 1px solid #ebedee;
+  color: #000;
+  font-family: "Font";
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.text-input-section label {
+  color: #666;
+}
+
+.checkbox-design {
+  border-radius: 3px;
+  padding: 2px 11px;
+  margin: 0 15px 0 0;
+  border: 1px solid #000;
+  background-color: #09b1ba;
+}
+
+.checkbox-input > input {
+  display: none;
+}
+
+.form-button-div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form-validation {
+  font: inherit;
+  outline: inherit;
+  padding: 12px;
+  background-color: #0ab1ba;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  margin: 50px 0;
+}
+
+/*  PAYMENT */
+
+.payment-wrapper {
+  background: #ebedee;
+  height: calc(100vh - 59px);
+}
+
+.payment-container {
+  width: 600px;
+  margin: 0 auto;
+  padding: 36px 20px;
+}
+
+.payment-card {
+  background: #fff;
+  border-radius: 5px;
+  padding-bottom: 50px;
+}
+
+.payment-card > .title {
+  display: block;
+  font-size: 14px;
+  line-height: 18px;
+  color: #999;
+  padding: 24px 24px 8px;
+}
+
+.payment-card .content {
+  padding: 24px;
+  text-align: justify;
+}
+
+.payment-card li {
+  font-size: 16px;
+  line-height: 22px;
+  color: #666;
+  padding: 4px 0;
+  display: grid;
+  grid: auto/1fr auto;
+  align-items: center;
+}
+
+.payment-card .divider {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: rgba(17, 17, 17, 0.1);
+  margin: 24px 0;
+}
+
+.payment-card .content .bold {
+  font-weight: 700;
+}
+
+.card-pay input,
+.StripeElement {
+  display: block;
+  margin: 10px 20px 20px;
+  padding: 10px 14px;
+  font-size: 1em;
+  font-family: "Source Code Pro", monospace;
+  box-shadow: 0 1px 3px rgba(50, 50, 93, 0.14902),
+    0 1px 0 rgba(0, 0, 0, 0.0196078);
+  border: 0;
+  outline: 0;
+  border-radius: 4px;
+  background: #fff;
+}
+
+.payment-card button {
+  margin-top: 8px;
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  line-height: 22px;
+  height: 44px;
+  padding: 0 14px;
+  color: #fff;
+  border: 1px solid;
+  border-radius: 4px;
+  background: #00c06d;
+  border-color: #00c06d;
+}
+
+.success {
+  margin-left: 50px;
+}
